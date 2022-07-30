@@ -130,25 +130,17 @@ button {
 .form label {
   font-size: 18px;
   font-weight: 600;
-  margin-bottom: 15px;
+  margin-bottom: 20px;
 }
 
-.form input {
+.form input, .form select {
+  border: none;
+  border-radius: 15px;
+  padding: 0 20px;
+  outline: none;
   font-size: 18px;
   color: #213053;
   height: 60px;
-  padding: 0 20px 0 20px;
-  border-radius: 15px;
-  border: none;
-}
-
-.form select {
-  font-size: 18px;
-  color: #213053;
-  height: 60px;
-  padding: 0 20px 0 20px;
-  border-radius: 15px;
-  border: none;
 }
 
 .form__submit {
