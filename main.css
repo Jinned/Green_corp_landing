@@ -64,6 +64,7 @@ button {
   align-items: center;
   justify-content: space-around;
   padding-bottom: 115px;
+  padding-left: 30px;
   padding-top: 115px;
   background: url('img/back.png') no-repeat;
   background-position: center;
@@ -144,9 +145,11 @@ button {
 }
 
 .form__submit {
-  font-size: 18px;
-  font-weight: 600;
   margin-top: 40px;
+  font-weight: 600;
+  font-size: 18px;
+ 
+ 
 }
 
 select {
@@ -160,11 +163,10 @@ input {
 button:hover {
   background-color: #f6980c;
   box-shadow: 0 16px 36px rgba(246 152 12/20%);
-}
+  transition: background-color 0.3s ease-in;}
 
 footer {
-  margin-top: 90px;
-  margin-bottom: 90px;
+padding: 90px 20px;
   font-size: 16px;
   font-weight: 600;
 }
